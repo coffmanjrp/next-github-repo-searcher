@@ -5,7 +5,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons';
 type Props = {
   item: {
     name: string;
-    url: string;
+    html_url: string;
     owner: {
       login: string;
     };
@@ -15,7 +15,7 @@ type Props = {
 const Card: FC<Props> = ({ item }) => {
   return (
     <Link
-      href={item.url}
+      href={item.html_url}
       p={6}
       textAlign="left"
       color="inherit"
