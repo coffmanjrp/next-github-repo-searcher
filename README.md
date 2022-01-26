@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Github Repo Searcher
 
-## Getting Started
+Search repos from Github by username.
 
-First, run the development server:
+[DEMO](https://next-github-repo-searcher.vercel.app/)
 
-```bash
+![Next Github Repo Searcher](https://res.cloudinary.com/coffmanjrp-dev/image/upload/v1643180013/coffmanjrp.io/next_github_repo_searcher_7739c60c1a.png)
+
+## How to start
+
+1. Clone this repository.
+
+```
+git clone git@github.com:coffmanjrp/next-github-repo-searcher.git
+```
+
+Or download the zip file.
+
+2. Run following command to install the dependencies.
+
+```
+npm install
+# or
+yarn
+```
+
+3. Set your Pixabay API key to the environment variable.
+
+example:
+
+```
+# .env.local file
+
+GITHUB_CLIENT_ID=YOUR_GITHUB_CLIENT_ID
+GITHUB_CLIENT_SECRET=YOUR_GITHUB_CLIENT_SECRET
+```
+
+4. And you can start localhost by
+
+```
 npm run dev
 # or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Enjoy!
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Stack
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [React Query](https://react-query.tanstack.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Chakra UI](https://chakra-ui.com/)
+- [Axios](https://axios-http.com/)

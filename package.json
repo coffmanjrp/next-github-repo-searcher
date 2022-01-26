@@ -1,5 +1,5 @@
 {
-  "name": "next-reactquery-test",
+  "name": "next-github-repo-searcher",
   "private": true,
   "scripts": {
     "dev": "next dev",

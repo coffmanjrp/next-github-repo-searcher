@@ -36,9 +36,10 @@ const Home: NextPage = () => {
   return (
     <Box py={0} px={8}>
       <Head>
-        <title>Github Repo Searcher</title>
         <meta name="description" content="Search github repositories by user" />
+        <meta name="robots" content="noindex, nofollow" />
         <link rel="icon" href="/favicon.ico" />
+        <title>Github Repo Searcher</title>
       </Head>
 
       <Flex
