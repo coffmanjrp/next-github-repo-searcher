@@ -24,7 +24,7 @@ npm install
 yarn
 ```
 
-3. Set your Pixabay API key to the environment variable.
+3. Set your environment variable.
 
 example:
 
